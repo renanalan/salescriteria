@@ -35,8 +35,6 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     testImplementation 'junit:junit:4.12'
 
-    compile "com.salesforce.mobilesdk:SalesforceSDK:$SALESFORCE_VERSION"
     compile "com.salesforce.mobilesdk:SmartStore:$SALESFORCE_VERSION"
-    compile "com.salesforce.mobilesdk:SmartSync:$SALESFORCE_VERSION"
     compile group: 'com.google.code.gson', name: 'gson', version: '2.7'
 }
