@@ -5,7 +5,8 @@ Salescriteria é uma forma fácil de se realizar consultas utilizando o SmartSto
 
 ## Criando uma consulta.
 ```java
- SalesCriteria<Customer> salesCriteria = SalesCriteriaFactory.createQueryCriteria(new SmartStoreInfo().getSmartStore(), SOUP, Customer.class);
+ SalesCriteria<Customer> salesCriteria = SalesCriteriaFactory
+         .createQueryCriteria(new SmartStoreInfo().getSmartStore(), SOUP, Customer.class);
  salesCriteria
               .andEquals("Id", "1")
               .getResultList();
