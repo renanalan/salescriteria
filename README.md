@@ -23,6 +23,6 @@ allprojects {
         }
    }
    dependencies {
-        compile 'com.github.renanalan:salescriteria:-SNAPSHOT'
+      compile 'com.github.renanalan:salescriteria:v1.0'
    }
 ```
